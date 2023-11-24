@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur des liens */
+.conteneur {
+  text-align: center;
+  margin-top: 20px;
+  min-height: 100vh;
+}
+
+/* Styles des liens-boutons */
+.conteneur a {
+  display: inline-block;
+  padding: 30px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.conteneur a:hover {
+  background-color: #0056b3;
+}
